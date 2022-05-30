@@ -1,6 +1,6 @@
 ---
 - name: "Do some tests"
-  hosts: "Centreon" 
+  hosts: "centreon"
 
   tasks:
     - name: "Uname"
