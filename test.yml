@@ -1,7 +1,7 @@
 ---
-- name: "Do some tests"
-  hosts: "centreon"
+- name: Do some tests
+  hosts: centreon
 
   tasks:
-    - name: "Uname"
-      shell: "uname -a"
+    - name: Uname
+      shell: uname -a
