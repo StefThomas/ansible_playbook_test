@@ -1,0 +1,7 @@
+---
+- name: "Do some tests"
+  hosts: dev
+
+  tasks:
+    - name: "Uname"
+      shell: "uname -a"
