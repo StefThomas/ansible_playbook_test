@@ -1,6 +1,6 @@
 ---
 - name: "Do some tests"
-  hosts: dev
+  hosts: Centreon pollers
 
   tasks:
     - name: "Uname"
