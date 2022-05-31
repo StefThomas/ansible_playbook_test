@@ -1,7 +1,6 @@
 ---
 - name: Do some tests
   hosts: centreon
-
   tasks:
     - name: Uname
       shell: uname -a
