@@ -1,6 +1,6 @@
 ---
 - name: Do some tests
-  hosts: sr082503cti3700
+  hosts: centreon
   tasks:
     - name: Uname
       shell: uname -a
